@@ -1,3 +1,7 @@
+provider "google" {
+  project = var.project_id
+}
+
 resource "google_service_account" "gemini_service_account" {
   account_id   = "gemini-service-account-${var.sandbox_id}"
   display_name = "Service account for Gemini API"
