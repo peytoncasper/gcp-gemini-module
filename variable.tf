@@ -5,3 +5,7 @@ variable "project_id" {
 variable "sandbox_id" {
     type = string
 }
+
+variable "credentials" {
+    type = string
+}

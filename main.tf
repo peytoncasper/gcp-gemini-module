@@ -1,5 +1,6 @@
 provider "google" {
   project = var.project_id
+  credentials = var.credentials
 }
 
 resource "google_service_account" "gemini_service_account" {
